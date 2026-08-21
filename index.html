@@ -807,11 +807,11 @@
     </div>
     <div class="hero-stats">
       <div class="stat">
-        <div class="stat-num">4<span>+</span></div>
+        <div class="stat-num">5<span>+</span></div>
         <div class="stat-label">Years Production</div>
       </div>
       <div class="stat">
-        <div class="stat-num">4<span>+</span></div>
+        <div class="stat-num">5<span>+</span></div>
         <div class="stat-label">Projects Shipped</div>
       </div>
       <div class="stat">
@@ -836,9 +836,8 @@
       <div class="about-grid">
         <div class="about-text">
           <p>
-            I'm a <strong>full-stack engineer</strong> with a deep focus on AI integration.
-            Over four years of production experience building systems that actually get used —
-            from LLM-powered operations platforms to multi-tenant SaaS applications.
+            I'm an <strong>AI Full-Stack Developer & Systems Architect</strong> with over five years of production experience building high-scale applications.
+            From AI-augmented enterprise HRIS platforms to multi-tenant SaaS and serverless LLM infrastructure.
           </p>
           <p>
             My foundation is <em>Electrical and Computer Engineering from UCT</em>, where I also
@@ -847,19 +846,18 @@
           </p>
           <p>
             I don't just integrate APIs — I design the <strong>architecture that scales</strong>,
-            the database schemas that survive growth, and the CI/CD pipelines that ship
-            confidently. Currently expanding into Azure data engineering: ADF, Databricks,
-            medallion architecture, and production-grade pipelines.
+            the database schemas that survive growth, and the Infrastructure-as-Code (Terraform, AWS ECS/S3) that deploys
+            confidently. Currently architecting core microservices, predictive analytics, and conversational AI chatbots for enterprise HR ecosystems at Zimworx.
           </p>
         </div>
         <div class="about-stack">
           <div class="stack-group">
             <div class="stack-group-label">// Backend & APIs</div>
             <div class="stack-pills">
+              <span class="pill">TypeScript</span>
+              <span class="pill">Node.js</span>
               <span class="pill">Python</span>
               <span class="pill">FastAPI</span>
-              <span class="pill">Node.js</span>
-              <span class="pill">TypeScript</span>
               <span class="pill">PostgreSQL</span>
               <span class="pill">Redis</span>
             </div>
@@ -876,6 +874,8 @@
           <div class="stack-group">
             <div class="stack-group-label">// AI & LLMs</div>
             <div class="stack-pills">
+              <span class="pill">AI Chatbots (HIVE Buddy)</span>
+              <span class="pill">Predictive Analytics</span>
               <span class="pill">Anthropic Claude</span>
               <span class="pill">OpenAI API</span>
               <span class="pill">LangChain</span>
@@ -883,11 +883,11 @@
             </div>
           </div>
           <div class="stack-group">
-            <div class="stack-group-label">// Cloud & Data</div>
+            <div class="stack-group-label">// Cloud & Infrastructure (IaC)</div>
             <div class="stack-pills">
+              <span class="pill">AWS (ECS, S3)</span>
+              <span class="pill">Terraform</span>
               <span class="pill">Azure</span>
-              <span class="pill">ADF</span>
-              <span class="pill">Databricks</span>
               <span class="pill">Docker</span>
               <span class="pill">GitHub Actions</span>
             </div>
@@ -903,16 +903,82 @@
       <div class="section-header">
         <span class="section-num">// 02</span>
         <h2>Selected <em>Projects</em></h2>
-        <span class="section-aside">production · portfolio · research</span>
+        <span class="section-aside">enterprise · production · research</span>
       </div>
 
       <div class="projects-grid">
 
-        <!-- Featured: InvoiceIQ -->
+        <!-- Featured: HIVE HRIS -->
         <div class="project-card featured">
           <div>
             <div class="project-meta">
               <span class="project-num">01</span>
+              <span class="project-type">AI · Enterprise HRIS · Microservices</span>
+              <span class="project-status status-wip">In Progress</span>
+            </div>
+            <h3>HIVE — Human Intelligence Value Engine</h3>
+            <p class="project-desc">
+              Cloud-native, AI-augmented enterprise HR Information System engineered for Zimworx to operationalize workforce data across 19 interconnected modules (scaling to 20,000+ team members). Features AI-driven Talent Acquisition with semantic CV parsing and candidate ranking, 72-hour automated onboarding orchestration, Employee Masterfile single-source-of-truth, geofenced attendance, performance appraisals with auto-generated PIPs, and "HIVE Buddy" — an embedded 24/7 conversational AI chatbot. Powered by Node.js/TypeScript microservices, PostgreSQL ACID multi-schema, Redis caching, and Terraform-provisioned AWS ECS and S3 infrastructure.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">AWS (ECS, S3)</span>
+              <span class="tech-tag">Terraform (IaC)</span>
+              <span class="tech-tag">AI Chatbot</span>
+              <span class="tech-tag">Predictive Analytics</span>
+              <span class="tech-tag">PostgreSQL</span>
+              <span class="tech-tag">Microservices</span>
+              <span class="tech-tag">Audit Compliance</span>
+            </div>
+            <div class="project-links">
+              <span class="link-primary">Enterprise HRIS Platform ↗</span>
+              <span class="link-secondary">Zimworx Proprietary</span>
+            </div>
+          </div>
+          <div class="project-visual has-img">
+            <div class="browser-frame">
+              <div class="chrome-bar">
+                <div class="chrome-dot"></div>
+                <div class="chrome-dot"></div>
+                <div class="chrome-dot"></div>
+                <span style="font-family:var(--font-mono); font-size:0.6rem; color:var(--text-muted); margin-left: auto; margin-right: auto;">hive.zimworx.internal // HRIS Command Center</span>
+              </div>
+              <div style="padding: 1.25rem; background: var(--bg-2); display: flex; flex-direction: column; gap: 0.85rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 0.6rem;">
+                  <div>
+                    <div style="font-family: var(--font-mono); font-size: 0.6rem; color: var(--accent); letter-spacing: 0.1em;">HIVE SYSTEM EMBODIMENT</div>
+                    <div style="font-family: var(--font-display); font-size: 1.1rem; color: var(--text);">Talent Acquisition & TE Command</div>
+                  </div>
+                  <span class="status-wip" style="font-size: 0.55rem; padding: 0.15rem 0.4rem;">AI-Augmented v2.0</span>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem;">
+                  <div style="background: var(--bg); padding: 0.6rem; border: 1px solid var(--border);">
+                    <div style="font-family: var(--font-mono); font-size: 0.5rem; color: var(--text-muted);">WORKFORCE TARGET</div>
+                    <div style="font-family: var(--font-display); font-size: 1rem; color: var(--text);">20,000 <span style="font-size: 0.6rem; color: var(--accent);">TMs</span></div>
+                  </div>
+                  <div style="background: var(--bg); padding: 0.6rem; border: 1px solid var(--border);">
+                    <div style="font-family: var(--font-mono); font-size: 0.5rem; color: var(--text-muted);">AI PARSE MATCH</div>
+                    <div style="font-family: var(--font-display); font-size: 1rem; color: var(--green);">99.4% <span style="font-size: 0.6rem; color: var(--green);">Accuracy</span></div>
+                  </div>
+                  <div style="background: var(--bg); padding: 0.6rem; border: 1px solid var(--border);">
+                    <div style="font-family: var(--font-mono); font-size: 0.5rem; color: var(--text-muted);">ONBOARDING SLA</div>
+                    <div style="font-family: var(--font-display); font-size: 1rem; color: var(--text);">&lt; 72 hrs</div>
+                  </div>
+                </div>
+                <div style="background: var(--bg); padding: 0.6rem; border: 1px solid var(--border); font-family: var(--font-mono); font-size: 0.6rem; color: var(--text-muted);">
+                  <span style="color: var(--accent);">$</span> HIVE Buddy 24/7 AI Chatbot: Online | AWS ECS Infrastructure: Provisioned (Terraform)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- InvoiceIQ -->
+        <div class="project-card">
+          <div>
+            <div class="project-meta">
+              <span class="project-num">02</span>
               <span class="project-type">AI · Full-Stack</span>
               <span class="project-status status-live">Live</span>
             </div>
@@ -970,7 +1036,7 @@
         <!-- AI Ops Monitor -->
         <div class="project-card">
           <div class="project-meta">
-            <span class="project-num">02</span>
+            <span class="project-num">03</span>
             <span class="project-type">AI · Platform</span>
             <span class="project-status status-live">Live</span>
           </div>
@@ -995,7 +1061,7 @@
         <!-- RetailPulse -->
         <div class="project-card">
           <div class="project-meta">
-            <span class="project-num">03</span>
+            <span class="project-num">04</span>
             <span class="project-type">Data Engineering</span>
             <span class="project-status status-wip">In Progress</span>
           </div>
@@ -1021,7 +1087,7 @@
         <!-- PriceWatch -->
         <div class="project-card">
           <div class="project-meta">
-            <span class="project-num">04</span>
+            <span class="project-num">05</span>
             <span class="project-type">SaaS · Backend</span>
             <span class="project-status status-wip">In Progress</span>
           </div>
@@ -1052,6 +1118,18 @@
         <h2>Work <em>History</em></h2>
       </div>
       <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-date">May 2026 — Present</div>
+          <div class="timeline-role">AI Full-Stack Developer</div>
+          <div class="timeline-company">Zimworx — Harare, Zimbabwe (Contract, in-person) | HIVE — Enterprise HRIS platform</div>
+          <ul class="timeline-points">
+            <li>Building core backend services (TypeScript, Node.js) for HIVE, an enterprise-scale internal HR information system used for large-scale employee lifecycle management; leading code reviews to enforce secure, consistent architecture across the codebase.</li>
+            <li>Integrating external hiring-team systems into HIVE, connecting recruitment data flows with core employee records.</li>
+            <li>Wiring up AI-driven features including a conversational HR chatbot, predictive analytics, and workforce trend reporting.</li>
+            <li>Provisioning shared AWS infrastructure via Terraform, including ECS services and a shared S3 bucket, as part of the platform's infrastructure-as-code strategy.</li>
+          </ul>
+        </div>
 
         <div class="timeline-item">
           <div class="timeline-date">May 2024 — May 2026</div>
